@@ -9,6 +9,8 @@
   </head>
   <body>
     <h1>Jeu du Morpion</h1>
+      <h2>Tapez dans une case pour commencer</h2>
+      <h3>Premier joueur est Joueur 🌭<br> et <br> Deuxieme joueur et Joueur 🍔</h3>
     <div id="gameEnd">
       <p class="white" id="endGameStatus">...</p>
       <input type="submit" value="Recommencer" id="reloadGame" onclick="reloadGame()">
@@ -26,7 +28,11 @@
       <div class="cell" data-cell></div>
     </div>
 
-    <h2 id="gameStatus">Le joueur 1 commence!</h2>
+  
+      <div id="gameFinish">
+        <input type="submit" value="Recommencer" id="reloadGame" onclick="reloadGame()">
+      </div>
+    <h1 id="gameStatus">Le joueur 🌭 commence!</h1>
     <script src="tic.js"></script>
   </body>
 </html>
